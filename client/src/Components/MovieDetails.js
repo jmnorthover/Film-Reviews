@@ -27,7 +27,6 @@ const MovieDetails = () => {
 
   // Submit a new user review
   const submitReview = async (values) => {
-    console.log(movieId);
     addReview(values, parseInt(movieId))
       .then(() => {
         setModalVisible(false);

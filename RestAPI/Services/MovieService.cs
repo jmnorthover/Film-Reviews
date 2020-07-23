@@ -45,7 +45,7 @@ namespace RestAPI
         {
             var client = _clientFactory.CreateClient();
             var apiKey = Environment.GetEnvironmentVariable("API_KEY");
-            var url = $"https://api.themoviedb.org/3/search/movie?api_key={apiKey}&language=en-US&query={query}&page=1&include_adult=true";
+            var url = $"https://api.themoviedb.org/3/search/movie?api_key={apiKey}&language=en-US&query={query}&page=1";
 
             var response = await client.GetAsync(url);
 
