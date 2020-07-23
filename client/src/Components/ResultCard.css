@@ -1,0 +1,30 @@
+.result-card {
+  width: 210px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 2px;
+  padding-bottom: 1.5rem;
+  transition: 0.04s;
+  margin-bottom: 3rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.release-date {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.result-card:hover {
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+}
+
+.result-card h2 {
+  margin-bottom: 0.5rem;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.result-card img {
+  width: 100%;
+  margin-bottom: 1rem;
+}

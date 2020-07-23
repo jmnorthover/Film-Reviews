@@ -1,0 +1,8 @@
+RestAPI/.vscode
+RestAPI/bin
+RestAPI/obj
+RestAPI/Properties
+RestAPI/appsettings.json
+RestAPI/appsettings.Development.json
+
+client/node_modules
