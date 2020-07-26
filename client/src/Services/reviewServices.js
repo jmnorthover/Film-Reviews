@@ -1,11 +1,9 @@
-const url = 'https://film-reviews-app.herokuapp.com';
-
 export const getReviews = (movieId) => {
-  return fetch(`${url}/api/reviews/${movieId}`).then((res) => res.json());
+  return fetch(`/api/reviews/${movieId}`).then((res) => res.json());
 };
 
 export const addReview = (reviewDetails, movieId) => {
-  return fetch(`${url}/api/reviews`, {
+  return fetch('/api/reviews', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',

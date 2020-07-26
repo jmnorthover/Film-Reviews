@@ -6,3 +6,4 @@ RestAPI/appsettings.json
 RestAPI/appsettings.Development.json
 
 client/node_modules
+client/build

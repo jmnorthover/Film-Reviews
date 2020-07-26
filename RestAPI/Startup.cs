@@ -94,9 +94,12 @@ namespace RestAPI
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                app.UseCors("MyPolicy");
             }
 
-            app.UseCors("MyPolicy");
+            app.UseDefaultFiles();
+
+            app.UseStaticFiles();
 
             app.UseHttpsRedirection();
 

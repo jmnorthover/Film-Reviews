@@ -4,15 +4,13 @@ import { Input, Divider } from 'antd';
 import { Link, useHistory } from 'react-router-dom';
 
 const Navbar = () => {
-  const handleSearch = value => {
+  const handleSearch = (value) => {
     if (value) {
       history.replace(`/search/${value}`);
     }
   };
 
   const history = useHistory();
-
-  console.log(history.location.pathname);
 
   return (
     <div>
