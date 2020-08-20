@@ -4,7 +4,7 @@ import { Input } from 'antd';
 import { useHistory } from 'react-router-dom';
 
 const Home = () => {
-  const handleSearch = value => {
+  const handleSearch = (value) => {
     if (value) {
       history.replace(`/search/${value}`);
     }
@@ -14,7 +14,7 @@ const Home = () => {
 
   return (
     <div className="home">
-      <h1>Find and review your favorite films</h1>
+      <h1>Find and Review Your Favorite Films</h1>
       <div className="home-search">
         <Input.Search
           placeholder="Search for a film..."

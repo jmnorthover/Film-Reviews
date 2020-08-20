@@ -11,6 +11,7 @@ h2 {
 
 .description {
   display: flex;
+  flex-wrap: wrap;
   margin-bottom: 2rem;
 }
 
@@ -19,16 +20,17 @@ h2 {
   height: 400px;
   width: auto;
   border: solid rgb(94, 94, 94) 1px;
+  margin: 0 auto;
 }
 
 .info {
-  margin-left: 2rem;
+  max-width: 800px;
 }
 
 .tag {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-style: italic;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .description h1 {
@@ -38,11 +40,12 @@ h2 {
 }
 
 .plot {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
 }
 
 .reviews {
   text-align: center;
+  font-size: 1.5rem;
 }
 
 .reviews-header {
